@@ -14,23 +14,28 @@
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Index</a></li>
-          <li>
-            <a
-              href="https://github.com/sebasgc0399?tab=repositories"
-              target="_blank"
-              >Repositorios</a
-            >
-          </li>
-        </ul>
-      </nav>
+    <header class="header fixed-top">
+      <div class="branding">
+        <div class="container-fluid position-relative">
+          <nav class="navbar navbar-expand-lg">
+            <div  class="site-logo">
+              <a class="navbar-brand" href="index.html">
+                <img class="logo-icon mr-2" src="../img/Logo.png" style="width:100px; height:50px;" alt="logo">
+                <span class="logo-text">
+                  Sebastian Gutierrez Clavijo
+                  <span class="text-alt">SGC</span>
+                </span>
+              </a>
+            </div>
+          </nav>
+        </div>
+        <!--//container-->
+      </div>
+      <!--//branding-->
     </header>
-    <article>
-      <section>
-        <h1 Estilo="sii">Apuntes de Git Bash</h1>
+    <!--//header-->
+      <section class="hero-section py-3 py-md-5">
+        <h1>Apuntes de Git Bash</h1>
         <h2>COMANDOS GIT BASH:</h2>
         <p>
           git init (Configurar Git en el proyecto)<br />
@@ -48,27 +53,23 @@
           git checkout -b rama-Nombre (Crear Rama)<br />
           git branch -d rama-Nombre (Eliminar Rama)<br />
           <br />
-          git push (Subir al Repositorio)<br />
+          git push (Subir al Repositorio)
           git pull (Actualizar Local de acuerdo al Repositorio)
         </p>
       </section>
-    </article>
     <aside>
       <h2>Apuntes de CSS</h2>
+      <h3>CSS Selector:<h3>
       <p>
-        CSS Selector 
-        Universal: *{} 
-        De tipo: etiqueta{} 
-        Clases: .clase{} 
-        ID: #id{}
+        Universal: *{} <br>
+        De tipo: etiqueta{} <br>
+        Clases: .clase{} <br>
+        ID: #id{}<br>
       </p>
     </aside>
     <footer>
       <h4>Copyrigth - Todos los derechos reservados</h4>
-      <ul>
-        Ingresa a mi Repositorio de
-        <b>Git Hub</b>
-      </ul>
+      <ul>Ingresa a mi Repositorio de <b>Git Hub</b></ul>
       <a href="https://github.com/sebasgc0399?tab=repositories">Git Hub</a>
     </footer>
   </body>

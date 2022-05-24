@@ -1,3 +1,90 @@
-[Estilo ="sii"]{
- color:rgb(0, 136, 255);
+.header {
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    background: #fff;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgb(233, 233, 233);
+}
+.position-relative {
+    position: relative !important;
+}
+.navbar {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.site-logo .navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 0;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar .navbar-toggler {
+    border: none;
+    padding: 0;
+    font-size: inherit;
+}
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.site-logo .logo-text {
+    color: #252930;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.mr-2, .mx-2 {
+    margin-right: 0.5rem !important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.site-logo .navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 0;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+}
+.hero-section {
+    padding-top: 48px;
+    padding-bottom: 48px
 }
